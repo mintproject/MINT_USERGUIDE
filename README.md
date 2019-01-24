@@ -1,0 +1,2 @@
+# MINT_USERGUIDE
+User Guide for MINT UI
