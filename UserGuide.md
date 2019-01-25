@@ -63,20 +63,25 @@ For each of the questions, the user is then asked to select the [driving variabl
 
 To understand how precipitation could affect food supply in the future, it is often useful to look at the prediction in its historical context.
 
-<insert information on browsing historical data and accompanying visualization Q1a - Q1b>.
+An analyst can choose to look at historical datasets and/or use pre-defined workflows to create seasonal average that better represent the context of the analysis.
+
+<insert information on browsing historical data and accompanying visualization Q1a - Q1b>
 
 #### Generating new data
 
-Sometimes an analyst may need to create probabilistic weather forecast from historical data rather than rely on numerical forecast, which may not be accurate too far into the future.
+Sometimes an analyst may need to generate new data, either to get a better understanding of the problem or to run probabilistic scenarios from historical data.
 
-To do so, the analyst can generate new data using a weather generator from the pre-defined workflows.
+For instance, probabilistic weather forecast from a weather generator is a good alternative to numerical forecast, which may not be accurate too far into the future.
 
 <What can the user select... Q1c>
-<Generating new data using remote sensing workfows... not a Q>
+
+Similarly, using one the pre-defined workflow in MINT, an analyst can extract historical water depth for a river from satellite imagery by using machine learning techniques for remote sensing data.
+
+<Generating new data using remote sensing workflows... not a Q>
 
 ####
 
 ## Glossary
-<a name="drivingvar_def">Driving variable</a>: The variable that will influence a response in the system.  
-<a name="responsevar_def">Response variable</a>: The variable that will show the impact of the driving variable onto the system  
-<a name="workflow_def">Workflow</a>: In the MINT system, a workflow is a composition of models and data transformation steps necessary to investigate the effect of the [driving variable](#drivingvar_def) onto the [response variable](#responsevar_def).
+<a name="drivingvar_def">**Driving variable**</a>: The variable that will influence a response in the system.  
+<a name="responsevar_def">**Response variable**</a>: The variable that will show the impact of the driving variable onto the system  
+<a name="workflow_def">**Workflow**</a>: In the MINT system, a workflow is a composition of models and data transformation steps necessary to investigate the effect of the [driving variable](#drivingvar_def) onto the [response variable](#responsevar_def).
