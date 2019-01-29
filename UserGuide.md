@@ -72,7 +72,10 @@ For each of the questions, the user is then asked to select the [driving variabl
 
 Several tasks will become available in TASKS panel (<a name='fig6'>Figure 6</a>).
 
- 
+![TasksPanel](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/TaskPanel.png?raw=true)
+*[Figure 6](#fig6): TASKS available from the MINT Analysis interface.*
+
+`Click on 'Select Variables'.` to list the possible activities related to this task (<a name='fig7'>Figure 7</a>). 
 
 #### Examining existing data
 
