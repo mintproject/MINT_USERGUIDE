@@ -5,24 +5,15 @@
 
 ## MINT User Interface
 
-The MINT UI is designed around a main task panel ([GOVERN](http://mint-ui.org/govern/home)) from which an analyst can:
-* Formulate their problem
-* Explore existing data on the region of interest and
-* Generate new datasets through pre-defined workflows
-* Compose and execute [workflows](#workflow_def) given a set of [driving](#drivingvar_def) and [response variables](#responsevar_def).
-* Visualize the results of the workflow.
+The MINT UI is designed around a main task panel ([Analysis](http://mint-ui.org/govern/analysis/south_sudan)) from which an analyst can:
+* **Formulate their problem**. MINT assists the user in the formulation of their problem by letting them (1) visualize existing causal analysis graphs ([CAG](#cag)) or upload their own CAG into the system and (2) formulate their modeling question.
+* **Explore existing data on the region of interest**. The "browse data" window allows to explore existing datasets within the MINT data catalog, a useful feature for problem formulation and modeling setup. New datasets can be added through the [register dataset page](http://mint-ui.org/results/publish).
+* **Generate new datasets through pre-defined workflows**. The system can accept new datasets that the user need to describe or generate new datasets from pre-defined workflows, such as generating probabilistic weather data for prognostic scenarios.
+* **Compose and execute [workflows](#workflow_def) given a set of [driving](#drivingvar_def) and [response variables](#responsevar_def)**.MINT suggests appropriate models for the target variables, along with transformations to run them together as a workflow. MINT executes the workflow efficiently in high-performance computing resources, and stores any results for future use.
+* **Visualize the results of the workflow** MINT associates common visualizations to different types of data, and uses them to present results to the users.
 
 <Insert picture of the MINT interface when ready>
-
-### Problem Statement
-
-### Explore existing datasets
-
-### Generate new datasets through pre-defined workflows
-
-### Compose and execute workflows
-
-### Visualize results
+*[Figure 1](#fig1): An overview of the main features of the MINT user interface.*
 
 ## South Sudan Scenario
 ### Background on South Sudan
@@ -32,9 +23,11 @@ The Republic of South Sudan gained  its independence from the Republic of the Su
 On February 2017, South Sudan and the United Nations declared a famine in parts of former Unity State, with the warning that it could spread rapidly without further action. Over 100,000 people were in imminent danger of death by starvation. The reason of the famine is unclear as of April 2017 but it is thought to be a consequence of drought and road blockage.
 
 ![Example CAG](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/ExampleCAG.png?raw=true)
-*Example of a Causal Analysis Graph (CAG)depicting the relationship among the various factors leading to poverty in South Sudan*
+*Figure 2: Example of a Causal Analysis Graph (CAG) depicting the relationship among the various factors leading to poverty in South Sudan*
 
-Based on the causal analysis graph (CAG) above, an analyst may investigate the role of precipitation in the food security during the 2017 lean season. South Sudan has a mostly tropical climate with a rainy season with large amounts of rainfall from April to October followed by a dry season. It is also impacted by severe weather events, resulting in flooding. During flooding events, farmers are unable to plant their crop, leading to planting delays and potentially crop failure.
+Based on the example CAG above, an analyst may wish to investigate the role of precipitation in food security during the 2017 lean season.
+
+South Sudan has a mostly tropical climate with a rainy season with large amounts of rainfall from April to October followed by a dry season. It is also impacted by severe weather events, resulting in flooding. During flooding events, farmers are unable to plant their crop, leading to planting delays and potentially crop failure.
 
 This tutorial follows the steps an analyst may undertake within the MINT framework to understand how precipitation could lead to a famine in South Sudan in summer 2017.
 
@@ -42,9 +35,9 @@ This tutorial follows the steps an analyst may undertake within the MINT framewo
 
 #### Formulate the problem
 
-The first task in any analysis is problem formulation. It is often done in the form of a question or a series of questions that reflect upon the analyst's understanding of the situation. This often involves background reading and/or examining CAGs obtained from machine readers.
+The first task in any analysis is problem formulation. It is often done in the form of a question or a series of questions that reflect upon the analyst's understanding of the situation. This often involves background reading and/or examining CAGs obtained from machine readers, for instance.
 
-<Look at the CAG direction>
+`On the analysis page, click on Browse CAG` (<a name='fig1'>Figure1</a>).
 
 In the case of our South Sudan scenario, an analyst may break down the problem as follows:
 * Is flooding expected in the Pongo Basin area during the upcoming growing season (April-August) 2017?
@@ -82,6 +75,7 @@ Similarly, using one the pre-defined workflow in MINT, an analyst can extract hi
 ####
 
 ## Glossary
+<a name="cag">**Causal Analysis Graph**</a>: Graphical models used to encode causal inference and community this causality from data.   
 <a name="drivingvar_def">**Driving variable**</a>: The variable that will influence a response in the system.  
 <a name="responsevar_def">**Response variable**</a>: The variable that will show the impact of the driving variable onto the system  
 <a name="workflow_def">**Workflow**</a>: In the MINT system, a workflow is a composition of models and data transformation steps necessary to investigate the effect of the [driving variable](#drivingvar_def) onto the [response variable](#responsevar_def).
