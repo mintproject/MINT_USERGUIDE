@@ -22,7 +22,7 @@ The Republic of South Sudan gained  its independence from the Republic of the Su
 
 On February 2017, South Sudan and the United Nations declared a famine in parts of former Unity State, with the warning that it could spread rapidly without further action. Over 100,000 people were in imminent danger of death by starvation. The reason of the famine is unclear as of April 2017 but it is thought to be a consequence of drought and road blockage.
 
-![Example CAG](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/ExampleCAG.png?raw=true)
+![Example CAG](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/ExampleCAG.png?raw=true)  
 *Figure 2: Example of a Causal Analysis Graph (CAG) depicting the relationship among the various factors leading to poverty in South Sudan*
 
 Based on the example CAG above, an analyst may wish to investigate the role of precipitation in food security during the 2017 lean season.
@@ -33,7 +33,7 @@ This tutorial follows the steps an analyst may undertake within the MINT framewo
 
 ### Analyst's tasks
 
-#### Formulate the problem
+#### Formulating the problem
 
 The first task in any analysis is problem formulation. It is often done in the form of a question or a series of questions that reflect upon the analyst's understanding of the situation. This often involves background reading and/or examining CAGs obtained from machine readers, for instance.
 
@@ -41,12 +41,12 @@ The first task in any analysis is problem formulation. It is often done in the f
 
 The CAG prepared by the University of Pittsburg's team loads into the main window (<a name='fig3'>Figure 3</a>).
 
-![BROWSECAG](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/BrowseCag.png?raw=true)
+![BROWSECAG](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/BrowseCag.png?raw=true)  
 *[Figure 3](#fig3): CAG prepared by the University of Pittsburg's team*
 
 The CAG infers a causal relationship between rainfall, flooding, planting, and crop production (<a name='fig4'>Figure 4</a>). As a starting point, the analysts decides to better understand the connection between these 4 variables since precipitation and crop-production are nodes with lots of connections in the CAG. The CAG informs the user that rainfall is the [driving variable](#drivingvar_def) while crop production is the main [response variable](#responsevar_def).  
 
-![CAGZoom](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/CAGZoom.png?raw=true)
+![CAGZoom](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/CAGZoom.png?raw=true)  
 *[Figure 4](#fig4): Close-up view of a subsection of the CAG relating precipitation to crop-production selected for further analysis.*
 
 The problem can be further broken down as follows:
@@ -59,7 +59,7 @@ The reminder of this tutorial is formulated around answering these four main que
 
 `Enter the first question in the QUESTIONS interface by clicking on '+ADD NEW QUESTION'. Enter the question in the new interface and select region. Click OK.` (<a name='fig5'>Figure 5</a>)
 
-![QuestionUI](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/QuestionsInterface.jpg?raw=true)
+![QuestionUI](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/QuestionsInterface.jpg?raw=true)  
 *[Figure 5](#fig5): Questions panel in the MINT Analysis interface*  
 
 Repeat the procedure for the next three questions. You will be allowed to formulate more questions later depending on the results of the analysis.
@@ -72,20 +72,36 @@ For each of the questions, the user is then asked to select the [driving variabl
 
 Several tasks will become available in TASKS panel (<a name='fig6'>Figure 6</a>).
 
-![TasksPanel](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/TaskPanel.png?raw=true)
+![TasksPanel](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/TaskPanel.png?raw=true)  
 *[Figure 6](#fig6): TASKS available from the MINT Analysis interface.*
 
 `Click on 'Select Variables'.` to list the possible activities related to this task (<a name='fig7'>Figure 7</a>).
 
-![ActivtiesPanel](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/ActivitiesPanel.png?raw=true)
+![ActivtiesPanel](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/ActivitiesPanel.png?raw=true)  
 *[Figure 7](#fig7): ACTIVITIES available from the MINT Analysis interface under the 'Select Variables' task.*
 
-The UI is asking to identify the [driving](#drivingvar_def) and [response variable](#responsevar_def) for the question. In this case, the [driving variable](#drivingvar_def) is rainfall and the [response variable](#responsevar_def) is flooding.
+The UI is asking to identify the [driving](#drivingvar_def) and [response variable](#responsevar_def) for the question. In this case, the [driving variable](#drivingvar_def) is *rainfall* and the [response variable](#responsevar_def) is *flooding*.
 
 `Click on 'Select Driving Variable' and click on the variable name in the CAG. Click DONE at the top of the window.` (<a name='fig8'>Figure 8</a>)
 
+![VarSelection](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/VarSelection.png?raw=true)  
+*[Figure 8](#fig8): Selecting the driving variable*
 
-#### Examining existing data
+`Repeat the process for the response variable.`
+
+Once you are done, the 'Select Driving Variables' and 'Select Response Variables' activities should turn green with a check mark next to them.
+
+#### Selecting datasets
+
+`Click on Select Datasets in the TASKS panel.`
+
+From the activities panel, you will be able to 'Find and Select Datasets', 'Run Data Exploration Workflows', or 'Run Data Exploration Workflows'.
+
+`Click on Find and Select Datasets.`
+
+The search engine returns the datasets associated with the [driving variable](#drivingvar_def) of interest (i.e., rainfall) for the selected sub-region in the QUESTIONS panel.
+
+`Select all datasets of interest and click DONE.` (<a name='fig9'>Figure 9</a>)
 
 To understand how precipitation could affect food supply in the future, it is often useful to look at the prediction in its historical context.
 
