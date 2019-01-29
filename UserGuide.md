@@ -39,6 +39,13 @@ The first task in any analysis is problem formulation. It is often done in the f
 
 `On the analysis page, click on Browse CAG` (<a name='fig1'>Figure1</a>).
 
+The CAG prepared by the University of Pittsburg's team loads into the main window.
+
+![BROWSECAG](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/BrowseCag.png?raw=true)
+*Figure 3: CAG prepared by the University of Pittsburg's team*
+
+
+
 In the case of our South Sudan scenario, an analyst may break down the problem as follows:
 * Is flooding expected in the Pongo Basin area during the upcoming growing season (April-August) 2017?
 * What is the expected crop yield for maize and sorghum?
