@@ -75,7 +75,15 @@ Several tasks will become available in TASKS panel (<a name='fig6'>Figure 6</a>)
 ![TasksPanel](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/TaskPanel.png?raw=true)
 *[Figure 6](#fig6): TASKS available from the MINT Analysis interface.*
 
-`Click on 'Select Variables'.` to list the possible activities related to this task (<a name='fig7'>Figure 7</a>). 
+`Click on 'Select Variables'.` to list the possible activities related to this task (<a name='fig7'>Figure 7</a>).
+
+![ActivtiesPanel](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/ActivitiesPanel.png?raw=true)
+*[Figure 7](#fig7): ACTIVITIES available from the MINT Analysis interface under the 'Select Variables' task.*
+
+The UI is asking to identify the [driving](#drivingvar_def) and [response variable](#responsevar_def) for the question. In this case, the [driving variable](#drivingvar_def) is rainfall and the [response variable](#responsevar_def) is flooding.
+
+`Click on 'Select Driving Variable' and click on the variable name in the CAG. Click DONE at the top of the window.` (<a name='fig8'>Figure 8</a>)
+
 
 #### Examining existing data
 
