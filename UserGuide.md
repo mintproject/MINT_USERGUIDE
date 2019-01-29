@@ -89,9 +89,12 @@ The UI is asking to identify the [driving](#drivingvar_def) and [response variab
 
 `Repeat the process for the response variable.`
 
-Once you are done, the 'Select Driving Variables' and 'Select Response Variables' activities should turn green with a check mark next to them.
+Once you are done, the 'Select Driving Variables' and 'Select Response Variables' activities should turn green with a check mark next to them. In addition, the 'YOUR SELECTIONS' panel keeps tracks of the choices made. (<a name='fig9'>Figure 9</a>)
 
-#### Selecting datasets
+![History](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/History.png?raw=true)  
+*[Figure 9](#fig9) YOUR SELECTIONS panel in the MINT Analysis interface keep track of the user's choices at every step of the analysis.*
+
+#### Selecting, exploring, and comparing datasets
 
 `Click on Select Datasets in the TASKS panel.`
 
@@ -101,13 +104,19 @@ From the activities panel, you will be able to 'Find and Select Datasets', 'Run 
 
 The search engine returns the datasets associated with the [driving variable](#drivingvar_def) of interest (i.e., rainfall) for the selected sub-region in the QUESTIONS panel.
 
-`Select all datasets of interest and click DONE.` (<a name='fig9'>Figure 9</a>)
+`Select all datasets of interest and click DONE.`
 
-To understand how precipitation could affect food supply in the future, it is often useful to look at the prediction in its historical context.
+<VIZ?>
 
-An analyst can choose to look at historical datasets and/or use pre-defined workflows to create seasonal average that better represent the context of the analysis.
+To add new datasets, go to [BLANK](http://mint-ui.org/results/publish) to register the data.
 
-<insert information on browsing historical data and accompanying visualization Q1a - Q1b>
+To understand how precipitation could affect food supply in the future, it is often useful to look at the prediction in its historical context. One simple task is to visualize the datasets (Fig 10?). In addition, users can use pre-defined workflows to transform the data for visualization. For instance, the ClimComp workflow allows to look at seasonal averages rather than the entire year, which may be more useful when considering the growing season.
+
+`In the ACTIVITIES panel, click on 'Run Data Exploration Workflows'. Select CLIMCOMP. Click on RUN WORKFLOW.`
+
+<finish with preloading.>
+
+
 
 #### Generating new data
 
@@ -121,7 +130,11 @@ Similarly, using one the pre-defined workflow in MINT, an analyst can extract hi
 
 <Generating new data using remote sensing workflows... not a Q>
 
-####
+### Other Tasks
+
+#### <a name='registerdata'> Registering new datasets </a>
+
+#### <a name='otherregions'> Selecting another region </a>
 
 ## Glossary
 <a name="cag">**Causal Analysis Graph**</a>: Graphical models used to encode causal inference and community this causality from data.   
