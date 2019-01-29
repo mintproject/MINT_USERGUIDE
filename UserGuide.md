@@ -39,15 +39,15 @@ The first task in any analysis is problem formulation. It is often done in the f
 
 `On the analysis page, click on Browse CAG` (<a name='fig1'>Figure1</a>).
 
-The CAG prepared by the University of Pittsburg's team loads into the main window.
+The CAG prepared by the University of Pittsburg's team loads into the main window (<a name='fig3'>Figure 3</a>).
 
 ![BROWSECAG](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/BrowseCag.png?raw=true)
-*Figure 3: CAG prepared by the University of Pittsburg's team*
+*[Figure 3](#fig3): CAG prepared by the University of Pittsburg's team*
 
-The CAG infers a causal relationship between rainfall, flooding, planting, and crop production. As a starting point, the analysts decides to better understand the connection between these 4 variables since precipitation and crop-production are nodes with lots of connections in the CAG. The CAG informs the user that rainfall is the [driving variable](#drivingvar_def) while crop production is the main [response variable](#responsevar_def).  
+The CAG infers a causal relationship between rainfall, flooding, planting, and crop production (<a name='fig4'>Figure 4</a>). As a starting point, the analysts decides to better understand the connection between these 4 variables since precipitation and crop-production are nodes with lots of connections in the CAG. The CAG informs the user that rainfall is the [driving variable](#drivingvar_def) while crop production is the main [response variable](#responsevar_def).  
 
 ![CAGZoom](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/CAGZoom.png?raw=true)
-*Figure 4: Close-up view of a subsection of the CAG relating precipitation to crop-production selected for further analysis.*
+*[Figure 4](#fig4): Close-up view of a subsection of the CAG relating precipitation to crop-production selected for further analysis.*
 
 The problem can be further broken down as follows:
 * Is flooding expected in the Pongo Basin area during the upcoming growing season (April-August) 2017?
@@ -57,15 +57,22 @@ The problem can be further broken down as follows:
 
 The reminder of this tutorial is formulated around answering these four main questions. Please note that the question template is open-ended but allows to keep track of the analyses that have been performed.
 
-`Enter the first question in the QUESTIONS interface by clicking on '+ADD NEW QUESTION'. Enter the question in the new interface and select region. Click OK.`(<a name='fig1'>Figure 4</a>)
+`Enter the first question in the QUESTIONS interface by clicking on '+ADD NEW QUESTION'. Enter the question in the new interface and select region. Click OK.` (<a name='fig5'>Figure 5</a>)
 
+![QuestionUI](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/QuestionsInterface.jpg?raw=true)
+*[Figure 5](#fig5): Questions panel in the MINT Analysis interface*  
 
+Repeat the procedure for the next three questions. You will be allowed to formulate more questions later depending on the results of the analysis.
 
-
-
-<description on how to actually do that>
+#### Identifying [driving](#drivingvar_def) and [response variables](#responsevar_def)
 
 For each of the questions, the user is then asked to select the [driving variable](#drivingvar_def) and the [response variable](#responsevar_def).
+
+`Click on the first question in the QUESTION panel to select it.`
+
+Several tasks will become available in TASKS panel (<a name='fig6'>Figure 6</a>).
+
+ 
 
 #### Examining existing data
 
