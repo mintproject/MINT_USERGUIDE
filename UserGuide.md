@@ -44,16 +44,24 @@ The CAG prepared by the University of Pittsburg's team loads into the main windo
 ![BROWSECAG](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/BrowseCag.png?raw=true)
 *Figure 3: CAG prepared by the University of Pittsburg's team*
 
+The CAG infers a causal relationship between rainfall, flooding, planting, and crop production. As a starting point, the analysts decides to better understand the connection between these 4 variables since precipitation and crop-production are nodes with lots of connections in the CAG. The CAG informs the user that rainfall is the [driving variable](#drivingvar_def) while crop production is the main [response variable](#responsevar_def).  
 
+![CAGZoom](https://github.com/KnowledgeCaptureAndDiscovery/MINT_USERGUIDE/blob/master/Figures/CAGZoom.png?raw=true)
+*Figure 4: Close-up view of a subsection of the CAG relating precipitation to crop-production selected for further analysis.*
 
-In the case of our South Sudan scenario, an analyst may break down the problem as follows:
+The problem can be further broken down as follows:
 * Is flooding expected in the Pongo Basin area during the upcoming growing season (April-August) 2017?
 * What is the expected crop yield for maize and sorghum?
 * When is the best planting window to ensure optimum yields?
-* How can farmers adapt to changes in precipitation during the 2017 growing season?
 * Would subsidies help farmers adapt to changing conditions during the growing season?
 
-MINT allows the analyst to keep track of their questions and the analyses they have conducted to answer them.
+The reminder of this tutorial is formulated around answering these four main questions. Please note that the question template is open-ended but allows to keep track of the analyses that have been performed.
+
+`Enter the first question in the QUESTIONS interface by clicking on '+ADD NEW QUESTION'. Enter the question in the new interface and select region. Click OK.`(<a name='fig1'>Figure 4</a>)
+
+
+
+
 
 <description on how to actually do that>
 
