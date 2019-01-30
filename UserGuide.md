@@ -1,4 +1,4 @@
-# Mint User Gsystemde
+# MINT System User Guide
 
 ## Table of Contents
 [MINT user Interface]()
@@ -6,9 +6,9 @@
 ## MINT System
 
 The MINT system is designed around a main task panel ([Analysis](http://mint-system.org/govern/analysis/south_sudan)) from which an analyst can:
-* **Formulate their problem**. MINT assists the user in the formulation of their problem by letting them (1) visualize existing causal analysis graphs ([CAG](#cag)) or upload their own CAG into the system and (2) formulate their modeling question.
-* **Explore existing data on the region of interest**. The "browse data" window allows to explore existing datasets within the MINT data catalog, a useful feature for problem formulation and modeling setup. New datasets can be added through the [register dataset page](http://mint-system.org/results/publish).
-* **Generate new datasets through pre-defined workflows**. The system can accept new datasets that the user need to describe or generate new datasets from pre-defined workflows, such as generating probabilistic weather data for prognostic scenarios.
+* **Formulate their problem**. MINT assists the user in the formulation of their problem by letting them (1) visualize existing causal analysis graphs ([CAG](#cag)) or upload their own CAG into the system and (2) formulate their modeling question(s).
+* **Explore existing data on the region of interest**. The "browse data" window allows to explore existing datasets within the MINT data catalog, a useful feature for problem formulation and modeling setup. New datasets can be added through the [registration interface](http://mint-system.org/results/publish).
+* **Generate new datasets through pre-defined workflows**. The user can generate new datasets from pre-defined workflows, including probabilistic weather data for prognostic scenarios.
 * **Compose and execute [workflows](#workflow_def) given a set of [driving](#drivingvar_def) and [response variables](#responsevar_def)**.MINT suggests appropriate models for the target variables, along with transformations to run them together as a workflow. MINT executes the workflow efficiently in high-performance computing resources, and stores any results for future use.
 * **Visualize the results of the workflow** MINT associates common visualizations to different types of data, and uses them to present results to the users.
 
