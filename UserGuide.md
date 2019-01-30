@@ -108,9 +108,9 @@ The search engine returns the datasets associated with the [driving variable](#d
 
 <VIZ?>
 
-To add new datasets, go to [BLANK](http://mint-ui.org/results/publish) to register the data.
+To add new datasets, go to [BLANK](http://mint-ui.org/results/publish) to register the data (see the tutorial [here](#registerdata)).
 
-To understand how precipitation could affect food supply in the future, it is often useful to look at the prediction in its historical context. One simple task is to visualize the datasets (Fig 10?). In addition, users can use pre-defined workflows to transform the data for visualization. For instance, the ClimComp workflow allows to look at seasonal averages rather than the entire year, which may be more useful when considering the growing season.
+To understand how precipitation could affect food supply in the future, it is often useful to look at the prediction in its historical context. One simple task is to visualize the datasets (***Fig 10?***). In addition, users can use pre-defined workflows to transform the data for visualization. For instance, the ClimComp workflow allows to look at seasonal averages rather than the entire year, which may be more useful when considering the growing season.
 
 `In the ACTIVITIES panel, click on 'Run Data Exploration Workflows'. Select CLIMCOMP. Click on RUN WORKFLOW.`
 
