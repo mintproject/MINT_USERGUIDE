@@ -59,4 +59,6 @@ __Q5__: Can a user add new models to MINT?  This is not possible in this version
 
 <a name="workflow_def">**Workflow**</a>: In the MINT system, a workflow is a composition of models and data transformation steps necessary to investigate the effect of the [driving variable](#drivingvar_def) onto the [response variable](#responsevar_def).
 
-___Last revised January 30, 2019.___
+##
+
+___Last revision: January 30, 2019.___
