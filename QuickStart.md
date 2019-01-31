@@ -17,7 +17,7 @@ The MINT user interface is organized around the following concepts:
 ## Glossary
 <a name="activity_def">**Activity**</a>: Users go through a series of activities in order to accomplish a task.  In MINT, activities are shown in the orange panel on the bottom right.
 
-<a name="cag_def">**Causal Analysis Graph (CAG)**</a>: A graph where nodes are modeling variables linked by causal relations. 
+<a name="cag_def">**CAG (Causal Analysis Graph)**</a>: A graph where nodes are modeling variables linked by causal relations. 
 
 <a name="drivingvar_def">**Driving variable**</a>: The variable that will influence a response in the system.  
 
