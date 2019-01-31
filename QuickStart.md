@@ -1,6 +1,6 @@
 # MINT QuickStart Guide
 
-![](https://github.com/mintproject/MINT_USERGUIDE/blob/master/Figures/mint-logo-vertical.png?raw=true){:height="36px" width="36px"}
+![](https://github.com/mintproject/MINT_USERGUIDE/blob/master/Figures/mint-logo-vertical.png?raw=true =100x)
 
 MINT is currently configured to work with simulation models to explore the role of climate in food security in select regions of South Sudan.  Background documents reveal that South Sudan has a mostly tropical climate with a rainy season with large amounts of rainfall from April to October followed by a dry season. South Sudan is frequently impacted by severe weather events, resulting in flooding. During floods, farmers are unable to plant crops, leading to planting delays and potentially crop failure.
 
