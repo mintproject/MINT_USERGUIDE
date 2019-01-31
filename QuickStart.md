@@ -27,9 +27,9 @@ The user can always go back to a different task in the task panel, or to a diffe
 
 ## Frequently Asked Questions (FAQs)
 
-'''Q1''': Does a user need to create workflows to analyze data in MINT?  No. MINT creates workflows as the user goes through tasks and activities.
+__Q1__: Does a user need to create workflows to analyze data in MINT?  No. MINT creates workflows as the user goes through tasks and activities.
 
-'''Q2''': Does a user need to create standard names in MINT?  No. MINT shows standard names as they are used in datasets and models, but users do not need to create them.
+__Q2__: Does a user need to create standard names in MINT?  No. MINT shows standard names as they are used in datasets and models, but users do not need to create them.
 
 
 ## Glossary
