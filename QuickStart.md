@@ -4,21 +4,16 @@
 
 ![MINTAnalysis](https://github.com/mintproject/MINT_USERGUIDE/blob/master/Figures/MainControlPanel.jpg?raw=true)
 
-The MINT user interface is organized around the following tasks:
-* **Explore a region of interest**.  This allows a user to browse (and upload) data for the region, access background documents about the region, access CAGs of variables automatically extracted from those documents, and edit the CAGs to add more variables.
+The MINT user interface is organized around the following concepts:
+* **Explore a region of interest**.  The top green panel allows a user to: (1) upload and browse CAGs of variables automatically extracted from  documents and edit them to add more variables, (2) browse (and upload) datasets for the region, and (3) generate new data by processing remote sensing data or probabilistic predictions for prognostic scenarios.  
 
-MINT assists the user in the formulation of their problem by letting them (1) visualize existing causal analysis graphs ([CAG](#cag)) or upload their own CAG into the system and (2) formulate their modeling question(s).
-2. **Explore existing data on the region of interest**. The "browse data" window allows to explore existing datasets within the MINT data catalog, a useful feature for problem formulation and modeling setup. New datasets can be added through the [registration interface](http://mint-system.org/results/publish).
+* **State a question**. The left yellow panel allows a user to: (4) jot down a [question](#question_def), and to indicate the region and timeframe for that question.  
 
-* **Generate new datasets through pre-defined workflows**. The user can generate new datasets from pre-defined workflows, including probabilistic weather data for prognostic scenarios.
-* **Compose and execute [workflows](#workflow_def) given a set of [driving](#drivingvar_def) and [response variables](#responsevar_def)**. MINT suggests appropriate models for the target variables, along with transformations to run them together as a workflow. MINT executes the workflow efficiently in high-performance computing resources, and stores any results for future use.
-* **Visualize the results of the workflow**. MINT associates common visualizations to different types of data, and uses them to present results to the users.
+* **Work on a question**. The middle blue panel (5) allows a user to carry out [tasks](#task_def) to work on a selected question by: (a) selecting [driving](#drivingvar_def) and [response](#responsevar_def) variables, (b) selecting datasets for the driving variables, (c) choosing and composing models, (d) running models, and (e) visualizing the results (7). User choices are recorded and shown in the grey panel (8) at the bottom left.
 
-## MINT Analysis
+* **Work on a task**.  When a task is selected, the orange panel (6) in the right guides the user through [activities](#activity_def) to accomplish it.  Each type of task involves different activities, which are done in sequence.  Some of these activities involve selecting and running [workflows](#workflow_def) composed of models and data transformations.  MINT will always generate the workflows, and may fill some of the inputs (which will use driving variables) with the user's previous choices (eg the region or time period).  MINT executes the workflow efficiently in high-performance computing resources, but becasuse this may take some time it will run them in the background and let the user continue to explore other questions.  Once finalized, the resulting datasets can be archived for future use.  When a dataset is archived, MINT will suggest metadata and the user can provide additional metadata as they consider appropriate.
 
-The [MINT Analysis] panel (http://mint-ui.org/govern/analysis/south_sudan) allows to access all the components of the MINT system. It is designed to keep track of all the steps in an analysis (<a name='fig1'>Figure 1</a>).
 
-*[Figure 1](#fig1): Overview of the MINT Analysis panel. From here an analyst can (1) examine a CAG, (2) Browse existing datasets or upload a new one to the data catalog, (3) generate new data through pre-exiting workflows, (4) formulate a problem, (5) select various tasks in answer of the formulated problem, (6) compose and execute workflows, and (7) visualize the results. MINT keeps track of all the choices a user made in its provenance catalog. The provenance is displayed on the Analysis panel (8).*
 
 * **Task 1**: Browse the CAG to get a better understanding of the causality among various variables (1 in <a name='fig1'>Figure 1</a>).
 * **Task 2**: Visualize a dataset present in the data catalog. (2 in <a name='fig1'>Figure 1</a>). In the dataset name, enter FLDAS, for instance. Click on the graph icon next to the dataset of interest.
@@ -32,7 +27,10 @@ The [MINT Analysis] panel (http://mint-ui.org/govern/analysis/south_sudan) allow
   * Visualize the results (7 in <a name='fig1'>Figure 1</a>)
 
 ## Glossary
-<a name="cag">**Causal Analysis Graph**</a>: Graphical models used to encode causal inference and community this causality from data.   
+<a name="activity_def">**Activity**</a>: Users go through a series of activities in order to accomplish a task.  In MINT, activities are shown in the orange panel on the bottom right.
+<a name="cag_def">**Causal Analysis Graph (CAG)**</a>: A graph where nodes are modeling variables linked by causal relations.   
 <a name="drivingvar_def">**Driving variable**</a>: The variable that will influence a response in the system.  
-<a name="responsevar_def">**Response variable**</a>: The variable that will show the impact of the driving variable onto the system  
+<a name="question_def">**Question**</a>: A string that states what the user is currently looking into, and may include the selection of a region and a time period. 
+<a name="responsevar_def">**Response variable**</a>: The variable that will show the impact of the driving variable onto the system.
+<a name="task_def">**Task**</a>: Users go through a series of tasks in order to answer a question of interest. In MINT, tasks are shown in the blue panel in the middle of the screen.
 <a name="workflow_def">**Workflow**</a>: In the MINT system, a workflow is a composition of models and data transformation steps necessary to investigate the effect of the [driving variable](#drivingvar_def) onto the [response variable](#responsevar_def).
