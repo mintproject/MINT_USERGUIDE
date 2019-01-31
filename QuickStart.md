@@ -1,6 +1,6 @@
 # MINT QuickStart Guide
 
-## Introduction
+## Introduction.
 
 The MINT user interface is designed around a main task panel ([Analysis](http://mint-system.org/govern/analysis/south_sudan)) from which an analyst can:
 * **Formulate their problem**. MINT assists the user in the formulation of their problem by letting them (1) visualize existing causal analysis graphs ([CAG](#cag)) or upload their own CAG into the system and (2) formulate their modeling question(s).
