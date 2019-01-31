@@ -2,6 +2,9 @@
 
 MINT is currently configured to work with models to explore climate-related questions in select regions of South Sudan.
 
+
+## MINT User Interface Overview
+
 ![MINTAnalysis](https://github.com/mintproject/MINT_USERGUIDE/blob/master/Figures/MainControlPanel.jpg?raw=true)
 
 The MINT user interface is organized around the following concepts:
