@@ -25,7 +25,7 @@ The MINT user interface is organized around the following concepts:
 
 * **Work on a task**.  When a task is selected, the orange panel (6) in the right guides the user through [activities](#activity_def) to accomplish it.  Each type of task involves different activities, which are done in sequence.  Some of these activities involve selecting and running [workflows](#workflow_def) that MINT creates, composed of models and data transformations.  MINT will always generate the workflows, and may fill some of the inputs (which will use driving variables) with the user's previous choices (eg the region or time period).  MINT executes the workflow efficiently on high-performance computing resources, but becasuse this may take some time it will run them in the background and let the user continue to explore other questions.  Once finalized, the resulting datasets can be archived for future use.  When a dataset is archived, MINT will suggest metadata and the user can provide additional metadata as they consider appropriate.
 
-The user can always go back to a different task in the task panel, or to a different question in the question panel.  Note that  tasks and activities are only enabled when previous required ones have already been accomplished.
+The user can always go back to a different task in the task panel, or to a different question in the question panel.  Note that  tasks and activities are only enabled when pre-requisite tasks/activities have already been accomplished.
 
 ## Frequently Asked Questions (FAQs)
 
