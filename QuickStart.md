@@ -2,8 +2,12 @@
 
 ## Overview
 
-The MINT user interface is designed around a main task panel ([Analysis](http://mint-system.org/govern/analysis/south_sudan)) from which an analyst can:
-1. **Formulate their problem**. MINT assists the user in the formulation of their problem by letting them (1) visualize existing causal analysis graphs ([CAG](#cag)) or upload their own CAG into the system and (2) formulate their modeling question(s).
+![MINTAnalysis](https://github.com/mintproject/MINT_USERGUIDE/blob/master/Figures/MainControlPanel.jpg?raw=true)
+
+The MINT user interface is organized around the following tasks:
+1. **Explore a region of interest**.  This allows a user to browse (and upload) data for the region, access background documents about the region, access CAGs of variables automatically extracted from those documents, and edit the CAGs to add more variables.
+
+MINT assists the user in the formulation of their problem by letting them (1) visualize existing causal analysis graphs ([CAG](#cag)) or upload their own CAG into the system and (2) formulate their modeling question(s).
 2. **Explore existing data on the region of interest**. The "browse data" window allows to explore existing datasets within the MINT data catalog, a useful feature for problem formulation and modeling setup. New datasets can be added through the [registration interface](http://mint-system.org/results/publish).
 
 * **Generate new datasets through pre-defined workflows**. The user can generate new datasets from pre-defined workflows, including probabilistic weather data for prognostic scenarios.
