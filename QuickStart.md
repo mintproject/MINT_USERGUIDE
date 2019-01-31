@@ -58,3 +58,5 @@ __Q5__: Can a user add new models to MINT?  This is not possible in this version
 <a name="task_def">**Task**</a>: Users go through a series of tasks in order to answer a question of interest. In MINT, tasks are shown in the blue panel in the middle of the screen.
 
 <a name="workflow_def">**Workflow**</a>: In the MINT system, a workflow is a composition of models and data transformation steps necessary to investigate the effect of the [driving variable](#drivingvar_def) onto the [response variable](#responsevar_def).
+
+___Last revised January 30, 2019.___
