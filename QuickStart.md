@@ -16,9 +16,15 @@ The MINT user interface is organized around the following concepts:
 
 ## Glossary
 <a name="activity_def">**Activity**</a>: Users go through a series of activities in order to accomplish a task.  In MINT, activities are shown in the orange panel on the bottom right.
-<a name="cag_def">**Causal Analysis Graph (CAG)**</a>: A graph where nodes are modeling variables linked by causal relations.   
+
+<a name="cag_def">**Causal Analysis Graph (CAG)**</a>: A graph where nodes are modeling variables linked by causal relations. 
+
 <a name="drivingvar_def">**Driving variable**</a>: The variable that will influence a response in the system.  
+
 <a name="question_def">**Question**</a>: A string that states what the user is currently looking into, and may include the selection of a region and a time period. 
+
 <a name="responsevar_def">**Response variable**</a>: The variable that will show the impact of the driving variable onto the system.
+
 <a name="task_def">**Task**</a>: Users go through a series of tasks in order to answer a question of interest. In MINT, tasks are shown in the blue panel in the middle of the screen.
+
 <a name="workflow_def">**Workflow**</a>: In the MINT system, a workflow is a composition of models and data transformation steps necessary to investigate the effect of the [driving variable](#drivingvar_def) onto the [response variable](#responsevar_def).
