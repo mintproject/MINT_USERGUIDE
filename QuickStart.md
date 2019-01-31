@@ -2,9 +2,7 @@
 
 ## Introduction
 
-This tutorial introduces an analyst to the MINT system, by having the user complete four tasks. A longer and more comprehensive tutorial, which walks the user through a science example, is available [here](https://github.com/mintproject/MINT_USERGUIDE/blob/master/UserGuide.md).
-
-The MINT system is designed around a main task panel ([Analysis](http://mint-system.org/govern/analysis/south_sudan)) from which an analyst can:
+The MINT user interface is designed around a main task panel ([Analysis](http://mint-system.org/govern/analysis/south_sudan)) from which an analyst can:
 * **Formulate their problem**. MINT assists the user in the formulation of their problem by letting them (1) visualize existing causal analysis graphs ([CAG](#cag)) or upload their own CAG into the system and (2) formulate their modeling question(s).
 * **Explore existing data on the region of interest**. The "browse data" window allows to explore existing datasets within the MINT data catalog, a useful feature for problem formulation and modeling setup. New datasets can be added through the [registration interface](http://mint-system.org/results/publish).
 * **Generate new datasets through pre-defined workflows**. The user can generate new datasets from pre-defined workflows, including probabilistic weather data for prognostic scenarios.
