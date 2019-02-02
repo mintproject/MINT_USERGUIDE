@@ -2,15 +2,15 @@
 
 # Examining precipitation data
 
-**Question 1a:** What is the precipitation for the 2017 growing season?
+**Question 1a:** What is the precipitation forecast for the 2017 growing season in the Pongo Basin area?
 
-**Question 1b**: How does the precipitation forecast compare with historical precipitation data for the 2017 growing season?
+**Question 1b**: How does the precipitation forecast compare with historical precipitation data for the 2017 growing season in the Pongo Basin area?
 
-**Question 1c**: What would the precipitation prediction if we assume a 60% increase over normal conditions?
+**Question 1c**: What would the precipitation prediction be if we assume a 60% increase over normal conditions in the Pongo Basin area?
 
 # Relationship between precipitation and flooding
 
-**Question 2c**: What is the water runoff in the Pongo Basin area of South Sudan during the 2017 growing season?
+**Question 2a**: What is the water runoff in the Pongo Basin area of South Sudan during the 2017 growing season?
 - Driving variable: precipitation
 - Response variable: Surface runoff
 
