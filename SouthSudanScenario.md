@@ -6,7 +6,30 @@
 
 **Question 1b**: How does the precipitation forecast compare with historical precipitation data for the 2017 growing season in the Pongo Basin area?
 
+Default:
+dataset_source: FLDAS
+max_lat: 9.335303
+max_lon: 27.74012
+max_month: 8
+min_lat: 6.700375
+min_lon: 24.15234
+min_month: 5
+weather: FLDAS_NOAH01_C_EA_M_001.tar.gz
+year: 2017
+
 **Question 1c**: What would the precipitation prediction be if we assume a 60% increase over normal conditions in the Pongo Basin area?
+
+Default:
+daily_weather: FLDAS_NOAH01_A_EA_D_001.tar.gz
+flagP: Rainf_f_tavg
+level: 0.7
+max_lat: 9.335303
+max_lon: 27.74012
+max_month: 8
+min_lat: 6.700375
+min_lon: 24.15234
+mont_month: 5
+monthly_weather: FLDAS_NOAH01_C_EA_M_001.tar.gz
 
 # Relationship between precipitation and flooding
 
