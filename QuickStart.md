@@ -15,7 +15,7 @@ A MINT user would assume that some tools have been used to automatically read ba
 
 ## MINT User Interface Overview
 
-![MINTAnalysis](https://github.com/mintproject/MINT_USERGUIDE/blob/master/Figures/MainControlPanel.jpg?raw=true)
+![MINTAnalysis](https://github.com/mintproject/MINT_USERGUIDE/blob/master/Figures/MINTActivityPanel.jpg?raw=true)
 
 The MINT user interface is organized around the following concepts:
 
