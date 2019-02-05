@@ -59,7 +59,7 @@ __Q5__: Can a user add new models to MINT?  This is not possible in this version
 
 <a name="drivingvar_def">**Driving variable**</a>: The variable that will influence a response in the system.  
 
-<a name="question_def">**Question**</a>: A string that states what the user is currently looking into, and may include the selection of a region and a time period. 
+<a name="question_def">**Question**</a>: A string that states what the user is currently looking into, and may include the selection of a region and a time period. The question statement is not analyzed by MINT, it is simply a handy way for a user to organize their investigation.
 
 <a name="responsevar_def">**Response variable**</a>: The variable that will show the impact of the driving variable onto the system.
 
@@ -71,4 +71,4 @@ __Q5__: Can a user add new models to MINT?  This is not possible in this version
 
 ##
 
-___Last revision: January 30, 2019.___
+___Last revision: February 4, 2019.___
