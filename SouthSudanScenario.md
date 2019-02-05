@@ -71,10 +71,12 @@ Defaults:
 - Driving variable: precipitation
 - Response variable: theoretical yields
 
+Suggested values: (day1: 100, duration 10; day2:225, duration:10)
+
 **Question 3b:** Given the precipitation forecast, would changing planting dates improve the theoretical yields for sorghum and maize in the lean season 2017?
 - Driving variable: precipitation
 - Response variable: theoretical yields
-- Intervention: Planting dates (suggested value: pick 10 days different with default)
+- Intervention: Planting dates (suggested value: day1: 85, duration 15; day2:162, duration:29)
 
 # Relationship between precipitation and crop production
 
