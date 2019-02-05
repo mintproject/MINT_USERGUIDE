@@ -31,9 +31,9 @@ The MINT user interface is organized around the following concepts:
 
 The user can always go back to a different task in the task panel, or to a different question in the question panel.  Note that  tasks and activities are only enabled when pre-requisite tasks/activities have already been accomplished.
 
-When formulating a question, a user may have in mind one of the following types of questions:
+When formulating a question, a user may have in mind one of the following types of questions, which are handled in different ways in the MINT user interface:
 
-* A question about historical data trends: These are questions about the general trends over the years, and do not require running a model.  These are answered by browsing data and visualizing data.
+* ___A question about historical data trends:___ These are questions about the general trends over the years, and do not require running a model.  These are answered by browsing data and visualizing data.
 
 * A question about generating new datasets: These are questions about how to generate datasets that are inputs to models, such as initial assumptions and interventions.  Typically these are answered through the Generating New Data tab in the green panel.
 
