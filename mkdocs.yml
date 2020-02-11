@@ -1,4 +1,5 @@
 site_name: My Docs
 nav:
   - Home: index.md
-  - Quickstart: QuickStart.md
+  - Model Catalog: modelCatalog.md
+theme: readthedocs
