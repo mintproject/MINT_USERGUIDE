@@ -1,5 +1,5 @@
 # Model Catalog Rationale
-The model catalog contains information about 
+The model catalog contains information about .
 
 
 ## Models and Model Version
