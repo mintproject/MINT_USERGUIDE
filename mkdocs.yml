@@ -1,7 +1,7 @@
 site_name: My Docs
 nav:
   - Home: index.md
-  - Model Catalog: modelCatalog.md
+  - Model Catalog: modelcatalog.md
 theme: readthedocs
 markdown_extensions:
   - admonition
