@@ -45,23 +45,23 @@ Represents a unique way of running a model, exposing concrete inputs, outputs, a
 ### Model configuration setup
 Model configurations may have multiple parameters aimed at expert users that are too complicated and not necessarily useful to users outside the domain of expertise. A *model configuration setup* represents a layer of abstraction over a model configuration, simplifying it and making it easier to execute in a correct and meaningful manner. Using the example in Figure 3, let's create a model configuration setup for a particular region:
 
-![Model configuration versus model configuration setup](figures/mc_ms.png "Model configuration versus model configuration setup")*Fig. 4: Main differences between model configuration and model configuration setup. While model configuration expose all the files and parameters needed to execute a model (2 files and 2 parameters on the left), the model configuration setup on the right simplify them for end users (only precipitation rates and simulation years are exposed).*
+![Model configuration versus model configuration setup](figures/mc_ms.png "Model configuration versus model configuration setup")*Fig. 4: Main differences between model configuration and model configuration setup. While a model configuration exposes all the files and parameters needed to execute a model (2 files and 2 parameters on the left), the model configuration setup on the right simplify them (only precipitation rates and simulation years are exposed).*
 
-As shown in Figure 4 (right), in this model configuration setup the input file with infiltration has been adjusted to a fixed URL by an expert modeler; and the hydrologic conductivity has been set to a fixed value that has been considered reasonable for the region being studied. As a result, users would only have to select the precipitation files and simulation years whenever selecting this setup to execute.
+As shown in Figure 4 (right), the model configuration setup has been adjusted with the input file with infiltration to a fixed URL by an expert modeler and with a fixed hydrologic conductivity value reasonable for the study region. To execute the setup, users would only have to select the precipitation files and simulation years.
 
 !!! hint ""
-    Setups may have all input files initialized by expert users, allowing variation only in the parameters that may be interesting in a region. This way users can execute model ensembles of interest without worrying about complex input file selection and preparation
+    Setups may have all input files initialized by expert users, allowing variation only in the parameters that may be interesting in a region. This way users can execute model ensembles of interest without worrying about complex input file selection and preparation that may not be relevant to their task.
 
 
 !!! tip "When should you use model configurations versus model configuration setups?"
-    If you want to make a model executable but you want to fix a subset of its configuration files for a particular region or period of time so users don't have to deal with it, then you are preparing a model configuration setup. Setups allow for hiding parameters or configuration files to end users, who may not be interested in that level of complexity.
+    An executable model with a fixed subset of inputs is a model configuration setup. This is extremely useful to fix values for variables and parameters that (1) are invariant, (2) require lots of expertise to set correctly, (3) may not be relevant to the problem at hand.
 
 
 ## Making your model understandable
 --------
-The final level of detail when describing models is making them easy to understand and use by others. That requires providing metadata to cover at least the following categories:
+This last level ensures that the details about the model are easy to understand by others. This task requires providing metadata in the following categories:
 
-### Model inputs, outputs and parameters
+### Model inputs, outputs, and parameters
 Although we need to know which are the model inputs, outputs and parameters we are exposing on each configuration or setup to make models executable, these may not be described sufficiently for other researchers to understand them. For each input and output, it is recommended to provide a small description of their role when executing a model. For the model parameters, it is necessary to describe their default values and minimum and maximum values so they can be correctly set up by users.
 
 ### Variables and Units
