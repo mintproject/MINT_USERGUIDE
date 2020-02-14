@@ -2,6 +2,14 @@ site_name: MINT
 nav:
   - Home: index.md
   - Model Catalog: modelcatalog.md
-theme: readthedocs
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
+
 markdown_extensions:
   - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
