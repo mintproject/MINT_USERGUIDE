@@ -62,23 +62,23 @@ As shown in Figure 4 (right), the model configuration setup has been adjusted wi
 This last level ensures that the details about the model are easy to understand by others. This task requires providing metadata in the following categories:
 
 ### Model inputs, outputs, and parameters
-Although we need to know which are the model inputs, outputs and parameters we are exposing on each configuration or setup to make models executable, these may not be described sufficiently for other researchers to understand them. For each input and output, it is recommended to provide a small description of their role when executing a model. For the model parameters, it is necessary to describe their default values and minimum and maximum values so they can be correctly set up by users.
+Because of the level of abstraction desired for model configurations and setups, they may not sufficiently describe a model for other researchers with expertise in the domain to understand and re-use them. For each input (including parameters) and output, we recommend providing a short description on how they affect the behavior of the model. For parameters, it is also necessary to describe their default values and minimum and maximum values.
 
 ### Variables and Units
-Each input and output dataset contains variables (e.g., precipitation, temperature, soil moisture, etc.) that are used by the executable model to create simulations. In a model configuration it is desirable to describe as much as these input and output variables as possible, so as to help others understand how to prepare the data. Units are also important to understand the quantities being used and predicted by a model
+Variables for each input and output datasets used in configurations should be described in as many details as possible to help with data preparation. Units are often the most important piece of information when dealing with data transformation.
 
 !!! hint ""
-    While it is not required to describe all input/output variables in a model, it is recommended to describe at least all those that are critical for selecting data (e.g., precipitation variable in the Precipitation rates file of Figure 3) and plotting results.
+    While it is not required to describe all input/output variables in a model, we recommend to describing at least all those that are critical for selecting data (e.g., precipitation variable in the Precipitation rates file of Figure 3) and plotting results.
 
 
 ### Grid
-Models with a geospatial grid (e.g., hydrology) should describe the characteristics of the grid (point based, 2-D, triangular, etc.) so as help determine whether regridding is necessary. In addition, providing the coordinate projection used in the input/output data is required to know how to project it in a map.
+Models with a geospatial grid (e.g., hydrology) should describe the characteristics of the grid (point based, 2-D, irregular, etc.) so as help determine whether regridding of the inputs/outputs is necessary. In addition, providing the coordinate projection used in the input/output data is required to know how to project it in a map.
 
 ### Region
-Model configurations and setups are usually calibrated and configured by experts (manually or automatically) to be run in a region. Hence, describing the region in which the model has been prepared to run is required to understand the context of the obtained results. For example, the hydrology model shown in Figure 3 is may configured differently in regions rich on clay, with little or none infiltration.
+Model configurations and setups are usually calibrated or configured by experts (manually or automatically) to be run in a specific region. Hence, describing the region in which the model has been prepared to run is required to understand the context of the obtained results. For example, the hydrology model shown in Figure 3 is may configured differently in regions rich in clay, with little or no infiltration possible.
 
 ### Time Step
-Different models output data at different time steps, usually depending on the data used as input.
+Different models output data at different time steps, usually depending on the data used as input. This information is necessary for data transformation and for linking models with different time requirements (e.g., a hydrology model may become unstable if run every month but monthly time steps are needed to initialize soil moisture in an agriculture model.)
 
 ## Usage Examples and Tutorial
 We have prepared a set of materials to help illustrating how the model catalog API and client work.
