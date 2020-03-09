@@ -11,7 +11,7 @@ Figure 1 shows an overview of the main categories we use to describe models in t
 ![Overview of the Model Catalog capabilites](figures/overview.png "Overview of the model catalog")*Fig. 1: Overview of the Model Catalog's main categories  for finding, executing, and understanding models.*
 
 !!! tip "Quick links"
-    * GUI for exploring the contents of the model catalog: [https://models.mint.isi.edu/home](https://models.mint.isi.edu/home)
+    * GUI for exploring the contents of the model catalog: [https://models.mint.isi.edu/home](https://models.mint.isi.edu/home). [(See a video of the main features)](https://www.youtube.com/watch?v=C9rxGT2k9is)
     * REST API for adding/modifying/deleting model catalog contents: [https://api.models.mint.isi.edu/v1.3.0/ui/#/](https://api.models.mint.isi.edu/v1.3.0/ui/#/)
     * [Requires log in] GUI for configuring and editing models: [https://mint.isi.edu/ethiopia/models/configure](https://mint.isi.edu/ethiopia/models/configure)
     * Model catalog API client and examples: [https://model-catalog-python-api-client.readthedocs.io/en/latest/](https://model-catalog-python-api-client.readthedocs.io/en/latest/)
@@ -87,3 +87,19 @@ We have prepared a set of materials to help illustrating how the model catalog A
 2. Step by step example on how to retrieve the available versions of a model: [https://model-catalog-python-api-client.readthedocs.io/en/latest/modelversion/](https://model-catalog-python-api-client.readthedocs.io/en/latest/modelversion/)
 3. Step by step example on how to find executable model configurations of a model: [https://model-catalog-python-api-client.readthedocs.io/en/latest/modelconfigurations/](https://model-catalog-python-api-client.readthedocs.io/en/latest/modelconfigurations/)
 4. Examples on how to execute models in the model catalog with a command line client: [https://model-catalog-python-api-client.readthedocs.io/en/latest/example/](https://model-catalog-python-api-client.readthedocs.io/en/latest/example/)
+5. Overview video of the main capabilities of the model catalog [(link to video)](https://www.youtube.com/watch?v=C9rxGT2k9is). A simplified overview can be seen below:
+
+![Model catalog overview](figures/example.gif "Model catalog overview")
+
+## Status and next steps [30 March, 2020]
+The current model catalog API supports:
+
+ * Retrieving information from models [[GUI](https://models.mint.isi.edu/home), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/) [API client](https://model-catalog-python-api-client.readthedocs.io/)]
+ * Edit information from models [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (needs login)
+ * Adding new model metadata [[API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (needs login)
+ 
+We are currently improving the model catalog to support the following capabilities:
+
+ * Tutorials on how to easily edit models, model configurations and model configuration setups.
+ * Creating executable model configurations and model configuration setups through a simplified YAML representation (see [current schema draft](https://github.com/mintproject/ModelCatalogInsertion/blob/master/examples/SetupExample_new.yaml))
+ * Developing a command line interface for helping users  ([currently under development](https://github.com/mintproject/ModelCatalogInsertion))
