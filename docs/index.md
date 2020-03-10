@@ -23,24 +23,13 @@ tasks:
 Identify geographical areas for modeling. MINT shows pre-defined areas such as river basins
 for hydrology modeling, cropland areas for agriculture modeling, and administrative regions for
 economic modeling.
- * **Browse and understand the models available**. A user can browse MINT’s Model Catalog to see
-the models available, their characteristics, their data needs, the processes they represent along with the variables involved in those processes, and the results they produce. The models in MINT have been customized to the pre-defined geographical areas.
- * **Browse the datasets available**. A user can browse the MINT’s Data Catalog to see all the datasets
-available. MINT is pre-populated with datasets relevant to modeling in the pre-defined regions.
-MINT highlights special datasets that may be of particular interest, such as high-quality datasets,
-necessary for the modeling tasks as well as novel datasets extracted from remote sensing data
-through machine learning techniques. These special datasets allow modeling experts to prepare and
-customize models for a region, so they have higher accuracy.
- * **Use models to run simulations that help answer questions of interest**. MINT guides an analyst
-through necessary steps to select and setup a model thread to run by offering sensible choices based
-on the analyst’s previous selections and information about the models and data in the Model and
-Data Catalog. The next section provides more information on this topic.
- * **Visualize results of model runs through interactive dashboards**. Once models are run, analysts
-can visualize the results and include these visualizations as well as their provenance details into
-dynamic interactive reports.
- * **Collaborate with other users with different expertise**. Analysts can share their modeling results
-with others, request results from others, and discuss how to coordinate modeling tasks for
-consistency through a message board.
+
+ * **Browse and understand the models available**. A user can browse MINT’s Model Catalog to see the models available, their characteristics, their data needs, the processes they represent along with the variables involved in those processes, and the results they produce. The models in MINT have been customized to the pre-defined geographical areas.
+ * **Browse the datasets available**. A user can browse the MINT’s Data Catalog to see all the datasets available. MINT is pre-populated with datasets relevant to modeling in the pre-defined regions. MINT highlights special datasets that may be of particular interest, such as high-quality datasets, necessary for the modeling tasks as well as novel datasets extracted from remote sensing data through machine learning techniques. These special datasets allow modeling experts to prepare and customize models for a region, so they have higher accuracy.
+ * **Use models to run simulations that help answer questions of interest**. MINT guides an analyst through necessary steps to select and setup a model thread to run by offering sensible choices based
+on the analyst’s previous selections and information about the models and data in the Model and Data Catalog. The next section provides more information on this topic.
+ * **Visualize results of model runs through interactive dashboards**. Once models are run, analysts can visualize the results and include these visualizations as well as their provenance details into dynamic interactive reports.
+ * **Collaborate with other users with different expertise**. Analysts can share their modeling results with others, request results from others, and discuss how to coordinate modeling tasks for consistency through a message board.
 
 ## Formulating Modeling Problems and Modeling Tasks in MINT
 

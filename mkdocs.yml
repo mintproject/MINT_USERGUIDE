@@ -2,7 +2,7 @@ site_name: MINT
 nav:
   - Home: index.md
   - Model Catalog: modelcatalog.md
-  - Solution Catalog: solutioncatalog.md
+  
 theme:
   name: material
   logo: images/logo.png
