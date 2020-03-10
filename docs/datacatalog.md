@@ -1,6 +1,10 @@
 
 # MINT Data Catalog
-Main website: https://data-catalog.mint.isi.edu
+
+## Main website
+https://data-catalog.mint.isi.edu
+
+## Summary
 
 The goal of MINT Data Catalog is to provide the data you need in the format you want. The high-level functionality can summarized with the following image
 
