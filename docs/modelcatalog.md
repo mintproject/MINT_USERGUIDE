@@ -32,7 +32,7 @@ The main driver for the model catalog is to make the model executable with diffe
 
 ![Model configuration versus model configuration setup](figures/component.png "Model configuration versus model configuration setup")
 
-*Fig. 3: TopoFlow model component with 2 input files, 2 input parameters, and 2 outputs.*
+*Fig. 3: TopoFlow model configuration with 2 input files, 2 input parameters, and 2 outputs.*
 
 We may want to execute this model in a region with a certain  configuration file and precipitation rates, or we may want allow users to change both of these files to files they have created themselves. In order to support this flexibility, we distinguish among the following concepts for executing models:
 
@@ -91,15 +91,15 @@ We have prepared a set of materials to help illustrating how the model catalog A
 
 ![Model catalog overview](figures/example.gif "Model catalog overview")
 
-## Status and next steps [30 March, 2020]
-The current model catalog API supports:
+## Status and next steps 
+The current model catalog API ([v1.3.1](https://github.com/mintproject/model-catalog-api/releases/tag/1.3.1), released on Feb 28th, 2020) supports:
 
  * Retrieving information from models [[GUI](https://models.mint.isi.edu/home), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/) [API client](https://model-catalog-python-api-client.readthedocs.io/)]
- * Edit information from models [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (needs login)
- * Adding new model metadata [[API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (needs login)
+ * Edit information from models [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs login**)
+ * Adding new model metadata [[API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs login**)
  
-We are currently improving the model catalog to support the following capabilities:
+We are currently improving the model catalog to support the following capabilities and expected timelines:
 
- * Tutorials on how to easily edit models, model configurations and model configuration setups.
- * Creating executable model configurations and model configuration setups through a simplified YAML representation (see [current schema draft](https://github.com/mintproject/ModelCatalogInsertion/blob/master/examples/SetupExample_new.yaml))
- * Developing a command line interface for helping users  ([currently under development](https://github.com/mintproject/ModelCatalogInsertion))
+ * **[March 30th]** Tutorials on how to easily edit models, model configurations and model configuration setups.
+ * **[April 7th]** Creating executable model configurations and model configuration setups through a simplified YAML representation (see [current schema draft](https://github.com/mintproject/ModelCatalogInsertion/blob/master/examples/SetupExample_new.yaml))
+ * **[May 1st]** Developing a command line interface for helping users  ([currently under development](https://github.com/mintproject/ModelCatalogInsertion))
