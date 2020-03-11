@@ -103,3 +103,7 @@ We are currently improving the model catalog to support the following capabiliti
  * **[March 30th]** Tutorials on how to easily edit models, model configurations and model configuration setups.
  * **[April 7th]** Creating executable model configurations and model configuration setups through a simplified YAML representation (see [current schema draft](https://github.com/mintproject/ModelCatalogInsertion/blob/master/examples/SetupExample_new.yaml))
  * **[May 1st]** Developing a command line interface for helping users  ([currently under development](https://github.com/mintproject/ModelCatalogInsertion))
+
+Figure 5 shows an overview of the components that are part of the model catalog and the new planned enhancements. 
+
+![Overview of the Model Catalog insertion](figures/insertion.png "Overview of the model catalog insertion acrchitecture")*Fig. 5: Overview of the Model Catalog insertion architecture.*
