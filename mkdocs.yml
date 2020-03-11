@@ -2,6 +2,7 @@ site_name: MINT
 nav:
   - Home: index.md
   - Model Catalog: modelcatalog.md
+  - Data Catalog: datacatalog.md
   
 theme:
   name: material
