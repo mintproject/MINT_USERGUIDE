@@ -95,8 +95,8 @@ We have prepared a set of materials to help illustrating how the model catalog A
 The current model catalog API ([v1.3.1](https://github.com/mintproject/model-catalog-api/releases/tag/1.3.1), released on Feb 28th, 2020) supports:
 
  * Retrieving information from models [[GUI](https://models.mint.isi.edu/home), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/) [API client](https://model-catalog-python-api-client.readthedocs.io/)]
- * Edit information from models [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs login**)
- * Adding new model metadata [[API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs login**)
+ * Edit information from models [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs authentication**)
+ * Adding new model metadata [[API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs authentication**)
  
 We are currently improving the model catalog to support the following capabilities and expected timelines:
 
