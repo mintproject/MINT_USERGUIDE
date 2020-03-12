@@ -101,8 +101,11 @@ The current model catalog API ([v1.3.1](https://github.com/mintproject/model-cat
 We are currently improving the model catalog to support the following capabilities and expected timelines:
 
  * **[March 30th]** Tutorials on how to easily edit models, model configurations and model configuration setups.
- * **[April 7th]** Creating executable model configurations and model configuration setups through a simplified YAML representation (see [current schema draft](https://github.com/mintproject/ModelCatalogInsertion/blob/master/examples/SetupExample_new.yaml))
- * **[May 1st]** Developing a command line interface for helping users  ([currently under development](https://github.com/mintproject/ModelCatalogInsertion))
+ * **[April 30th]** Creating executable model configurations and model configuration setups through a simplified YAML representation (see [current schema draft](https://github.com/mintproject/ModelCatalogInsertion/blob/master/examples/SetupExample_new.yaml))
+ * **[May 31st]** Command line interface for guiding, validating and helping users adding executable models ([currently under development](https://github.com/mintproject/ModelCatalogInsertion)). The command line will allow testing online models included in the catalog.
+ * **[June 30th]** Command line interface for validating and testing local models
+ * **[September 30th]** Integration with automated variable extraction from data 
+ * **[December 31th]** Integration with automated variable extraction from code (Automates)
 
 Figure 5 shows an overview of the components that are part of the model catalog and the new planned enhancements. 
 
