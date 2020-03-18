@@ -12,7 +12,7 @@ Figure 1 shows an overview of the main categories we use to describe models in t
 
 !!! tip "Quick links"
     * GUI for exploring the contents of the model catalog: [https://models.mint.isi.edu/home](https://models.mint.isi.edu/home). [(See a video of the main features)](https://www.youtube.com/watch?v=C9rxGT2k9is)
-    * REST API for adding/modifying/deleting model catalog contents: [https://api.models.mint.isi.edu/v1.3.0/ui/#/](https://api.models.mint.isi.edu/v1.3.0/ui/#/)
+    * REST API for adding/modifying/deleting model catalog contents: [https://api.models.mint.isi.edu/latest](https://api.models.mint.isi.edu/latest)
     * [Requires log in] GUI for configuring and editing models: [https://mint.isi.edu/ethiopia/models/configure](https://mint.isi.edu/ethiopia/models/configure)
     * Model catalog API client and examples: [https://model-catalog-python-api-client.readthedocs.io/en/latest/](https://model-catalog-python-api-client.readthedocs.io/en/latest/)
     * Model catalog API documentation: [https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)
@@ -92,10 +92,10 @@ We have prepared a set of materials to help illustrating how the model catalog A
 ![Model catalog overview](figures/example.gif "Model catalog overview")
 
 ## Status and next steps 
-The current model catalog API ([v1.3.1](https://github.com/mintproject/model-catalog-api/releases/tag/1.3.1), released on Feb 28th, 2020) supports:
+The current model catalog API ([v1.4.0](https://github.com/mintproject/model-catalog-api/releases/tag/1.4.0), released on March 10th, 2020) supports:
 
  * Retrieving information from models [[GUI](https://models.mint.isi.edu/home), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/) [API client](https://model-catalog-python-api-client.readthedocs.io/)]
- * Edit information from models [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs authentication**)
+ * Edit information from model setups [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs authentication**)
  * Adding new model metadata [[API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs authentication**)
  
 We are currently improving the model catalog to support the following capabilities and expected timelines:
