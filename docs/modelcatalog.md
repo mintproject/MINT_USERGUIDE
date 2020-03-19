@@ -104,7 +104,7 @@ The current model catalog API ([v1.4.0](https://github.com/mintproject/model-cat
 We are currently improving the model catalog to support the following capabilities:
 
  * **[March 30th]** Release of the MINT-Model Desktop Execution Application for running pre-configured hydrology models locally/on a server to facilitate integration with SuperMaas.
- * **[April 30th]** Guidebook for creating abstracted, user-friendly metadata schema for specifying model configurations and model configuration setups.
+ * **[April 30th]** Guidebook for creating compact, human-readable metadata schema for specifying model configurations and model configuration setups.
  * **[May 31st]** Model calibration with DAKOTA.
  * **[June 30th]** Template-based guidelines for retrieveing model metadata. Integration with the data catalog transformation pipelines for data transformations.
  * **[July 31st]** Tested integration with data catalog transformations for the hydrology models that are supported.
