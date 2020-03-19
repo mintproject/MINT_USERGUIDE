@@ -1,4 +1,4 @@
-# A Quick Guide to the MINT Model Catalog
+# A Quick Guide to the MINT Model Services
 ## Overview
 The MINT Model Catalog is a metadata registry that describes physical, environmental and social models (e.g., climate, hydrology, agriculture or economy models) in order to:
 
