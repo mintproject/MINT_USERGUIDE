@@ -91,21 +91,24 @@ We have prepared a set of materials to help illustrating how the model catalog A
 
 ![Model catalog overview](figures/example.gif "Model catalog overview")
 
-## Status and next steps 
+## Status 
 The current model catalog API ([v1.4.0](https://github.com/mintproject/model-catalog-api/releases/tag/1.4.0), released on March 10th, 2020) supports:
 
- * Retrieving information from models [[GUI](https://models.mint.isi.edu/home), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/) [API client](https://model-catalog-python-api-client.readthedocs.io/)]
+ * Retrieving information from models [[GUI](https://models.mint.isi.edu/home), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/), [API client](https://model-catalog-python-api-client.readthedocs.io/)]
  * Edit information from model setups [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs authentication**)
  * Adding new model metadata [[API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs authentication**)
+ * Current schema (draft) for representing model metadata [current schema draft](https://github.com/mintproject/ModelCatalogInsertion/blob/master/examples/SetupExample_new.yaml)
+ * Command line interface for guiding, validating and helping users adding executable models ([currently under development](https://github.com/mintproject/ModelCatalogInsertion))
  
-We are currently improving the model catalog to support the following capabilities and expected timelines:
+## Next steps
+We are currently improving the model catalog to support the following capabilities:
 
- * **[March 30th]** Tutorials on how to easily edit models, model configurations and model configuration setups.
- * **[April 30th]** Creating executable model configurations and model configuration setups through a simplified YAML representation (see [current schema draft](https://github.com/mintproject/ModelCatalogInsertion/blob/master/examples/SetupExample_new.yaml))
- * **[May 31st]** Command line interface for guiding, validating and helping users adding executable models ([currently under development](https://github.com/mintproject/ModelCatalogInsertion)). The command line will allow testing online models included in the catalog.
- * **[June 30th]** Command line interface for validating and testing local models
- * **[September 30th]** Integration with automated variable extraction from data 
- * **[December 31th]** Integration with automated variable extraction from code (Automates)
+ * **[March 30th]** Release of the MINT-Model Desktop Execution Application for running pre-configured hydrology models locally/on a server to facilitate integration with SuperMaas.
+ * **[April 30th]** Guidebook for creating abstracted, user-friendly metadata schema for specifying model configurations and model configuration setups.
+ * **[May 31st]** Model calibration with DAKOTA.
+ * **[June 30th]** Template-based guidelines for retrieveing model metadata. Integration with the data catalog transformation pipelines for data transformations.
+ * **[July 31st]** Tested integration with data catalog transformations for the hydrology models that are supported.
+ * **[August 31st]**  Integration with automated variable extraction from code (Automates)
 
 Figure 5 shows an overview of the components that are part of the model catalog and the new planned enhancements. 
 
