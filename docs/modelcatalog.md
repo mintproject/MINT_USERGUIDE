@@ -1,20 +1,20 @@
 # A Quick Guide to the MINT Model Services
 ## Overview
-The MINT Model Catalog is a metadata registry that describes physical, environmental and social models (e.g., climate, hydrology, agriculture or economy models) in order to:
+The MINT Model Services describe physical, environmental and social models (e.g., climate, hydrology, agriculture or economy models) in order to:
 
  * **Find relevant models**, according their name, keywords, variables or region where they can be executed.
  * **Execute models**, either by providing new input files and parameters or by choosing pre-selected models that have been setup by experts.  
  * **Understand how to use models** and how to interpret their results. In order to prepare input data for model execution and ensure that users can use model results, the most relevant variables included in the input and output files should be described. Similarly, other geospatial and temporal information is critical for providing the context key to understand model results.
 
-Figure 1 shows an overview of the main categories we use to describe models in the model catalog, which are further described in the following sections.
+Figure 1 shows an overview of the main categories we use to describe models, which are further described in the following sections.
 
-![Overview of the Model Catalog capabilites](figures/overview.png "Overview of the model catalog")*Fig. 1: Overview of the Model Catalog's main categories  for finding, executing, and understanding models.*
+![Overview of the Model Services' capabilites](figures/overview.png "Overview of the model catalog")*Fig. 1: Overview of the Model Services' main categories  for finding, executing, and understanding models.*
 
 !!! tip "Quick links"
     * GUI for exploring the contents of the model catalog: [https://models.mint.isi.edu/home](https://models.mint.isi.edu/home). [(See a video of the main features)](https://www.youtube.com/watch?v=C9rxGT2k9is)
-    * REST API for adding/modifying/deleting model catalog contents: [https://api.models.mint.isi.edu/latest](https://api.models.mint.isi.edu/latest)
+    * REST API for adding/modifying/deleting model metadata: [https://api.models.mint.isi.edu/latest](https://api.models.mint.isi.edu/latest)
     * [Requires log in] GUI for configuring and editing models: [https://mint.isi.edu/ethiopia/models/configure](https://mint.isi.edu/ethiopia/models/configure)
-    * Model catalog API client and examples: [https://model-catalog-python-api-client.readthedocs.io/en/latest/](https://model-catalog-python-api-client.readthedocs.io/en/latest/)
+    * Model services API client and examples: [https://model-catalog-python-api-client.readthedocs.io/en/latest/](https://model-catalog-python-api-client.readthedocs.io/en/latest/)
     * Model catalog API documentation: [https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)
 
 ## Making your model findable
@@ -101,15 +101,15 @@ The current model catalog API ([v1.4.0](https://github.com/mintproject/model-cat
  * Command line interface for guiding, validating and helping users adding executable models ([currently under development](https://github.com/mintproject/ModelCatalogInsertion))
  
 ## Next steps
-We are currently improving the model catalog to support the following capabilities:
+We are currently improving the model services to support the following capabilities:
 
- * **[March 30th]** Release of the MINT-Model Desktop Execution Application for running pre-configured hydrology models locally/on a server to facilitate integration with SuperMaas.
- * **[April 30th]** Guidebook for creating compact, human-readable metadata schema for specifying model configurations and model configuration setups.
- * **[May 31st]** Model calibration with DAKOTA.
- * **[June 30th]** Template-based guidelines for retrieveing model metadata. Integration with the data catalog transformation pipelines for data transformations.
- * **[July 31st]** Tested integration with data catalog transformations for the hydrology models that are supported.
- * **[August 31st]**  Integration with automated variable extraction from code (Automates)
+ * **[March 30]** Desktop Application for Model Execution (DAME) for running pre-configured hydrology models locally/on a server 
+ * **[April 15]** Simple model insertion for running model executables.
+ * **[May 30]** Integrate data transformations for hydrology models supported.
+ * **[June 30]** Model insertion through guidebook for specifying compact metadata documentation in stages of progressive detail.
+ * **[July - August]** Improve integration and transition.
 
-Figure 5 shows an overview of the components that are part of the model catalog and the new planned enhancements. 
 
-![Overview of the Model Catalog insertion](figures/insertion.png "Overview of the model catalog insertion acrchitecture")*Fig. 5: Overview of the Model Catalog insertion architecture.*
+Figure 5 shows an overview of the components that are part of the MINT model services and the new planned enhancements. 
+
+![Overview of the Model Services](figures/insertion.png "Overview of MINT Model Services")*Fig. 5: Overview of MINT Model Services.*
