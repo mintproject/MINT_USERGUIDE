@@ -3,6 +3,9 @@ nav:
   - Home: index.md
   - Model Catalog: modelcatalog.md
   - Data Catalog: datacatalog.md
+  - Modeling capabilities: modeling.md
+  - Indicators: indicators.md
+  - Interventions: interventions.md
   
 theme:
   name: material
