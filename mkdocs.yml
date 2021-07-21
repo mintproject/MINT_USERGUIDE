@@ -6,11 +6,13 @@ nav:
   - Modeling capabilities: modeling.md
   - Indicators: indicators.md
   - Interventions: interventions.md
+  - User Interface Walkthrough: walkthrough.md
   
 theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
+extra_css: [extra.css]
 
 markdown_extensions:
   - admonition
