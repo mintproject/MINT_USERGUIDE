@@ -30,7 +30,7 @@ Update Complete. ⎈ Happy Helming!⎈
 **2.** Deploy MINT (note that you can pass any of the [supported values](https://github.com/mintproject/mint/tree/main/helm#readme):
 
 ```console
-$ helm install --devel mint mint/mint--wait
+$ helm install --devel mint mint/mint --wait
 NAME: mint 
 LAST DEPLOYED: Wed Mar 18 10:27:06 2020
 NAMESPACE: default
