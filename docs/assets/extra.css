@@ -1,0 +1,6 @@
+.md-grid {
+    max-width: 80rem;
+}
+.md-nav__item--active {
+    font-weight: bold;
+}

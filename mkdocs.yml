@@ -1,22 +1,36 @@
 site_name: MINT
+extra_css:
+- assets/versions.css
+extra_javascript:
+- assets/versions.js
+repo_url: https://github.com/mintproject/MINT_USERGUIDE
+edit_uri: edit/master/docs/
 nav:
-  - Home: index.md
-  - Model Catalog: modelcatalog.md
-  - Data Catalog: datacatalog.md
-  - Modeling capabilities: modeling.md
-  - Indicators: indicators.md
-  - Interventions: interventions.md
-  - User Interface Walkthrough: walkthrough.md
-  
+  - Overview: index.md
+  - Capabilities:
+    - Modeling capabilities: modeling.md
+    - Indicators: indicators.md
+    - Interventions: interventions.md
+  - User guide: 
+    - User Interface Walkthrough: walkthrough.md
+  - Services:
+    - Model Catalog: modelcatalog.md
+    - Data Catalog: datacatalog.md
+  - Administrator Guide:
+    - admin-guide/index.md
+    - admin-guide/installation.md 
+    #- admin-guide/configuration.md
 theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
-extra_css: [extra.css]
+  palette:
+    primary: teal
+
 
 markdown_extensions:
-  - admonition
-  - codehilite:
-      guess_lang: false
-  - toc:
-      permalink: true
+- codehilite
+- admonition
+- toc:
+    toc_depth : "1-1"
+    permalink: true
