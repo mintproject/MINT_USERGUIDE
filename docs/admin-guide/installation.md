@@ -27,7 +27,7 @@ Hang tight while we grab the latest from your chart repositories...
 Update Complete. ⎈ Happy Helming!⎈
 ```
 
-**2.** Deploy MINT (note that you can pass any of the [supported values](https://github.com/mintproject/mint/blob/mint/helm/README.md)):
+**2.** Deploy MINT (note that you can pass any of the [supported values](https://github.com/mintproject/mint/tree/main/helm#readme):
 
 ```console
 $ helm install --devel mint mint/mint--wait
