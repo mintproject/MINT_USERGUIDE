@@ -6,9 +6,8 @@ MINT can be easily deployed on large Kubernetes clusters using Helm. Useful for 
 ## Pre-requisites
 
 - A Kubernetes `v1.16.3` cluster is required as well as Helm `v3.2.x`.
+- A Google Maps API Key. [How to obtain it?](https://developers.google.com/maps/documentation/javascript/get-api-key) 
 
-- A Google Maps API Key. [How to obtain it?](https://developers.google.com/maps/documentation/javascript/get-api-key)
-- 
 ## Deploy
 
 **1.** Add MINT chart repository:
@@ -53,7 +52,6 @@ Thanks for flying MINT 🚀
 ```
 
 !!! warning
-
     Note that the above `helm install` command used `mint` as the Helm release name. You can choose any other name provided that it is less than 13 characters long. (This is due to current limitation on the length of generated pod names.)
 
 !!! note
