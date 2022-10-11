@@ -27,10 +27,23 @@ Hang tight while we grab the latest from your chart repositories...
 Update Complete. ⎈ Happy Helming!⎈
 ```
 
-**2.** Deploy MINT (note that you can pass any of the [supported values](https://github.com/mintproject/mint/tree/main/helm#readme):
+**2.** Configure MINT 
+
+Create a file called `values.yaml` and you can pass any of the [supported values](https://github.com/mintproject/mint/tree/main/helm#readme).
+
+For example, to change the Welcome Message:
+
+```yaml
+welcome_message: Welcome to MINT
+```
+
+
+**3.** Deploy MINT (note that you can pass any of the [supported values](https://github.com/mintproject/mint/tree/main/helm#readme):
+
+
 
 ```console
-$ helm install --devel mint mint/MINT --wait
+$ helm install --devel mint mint/MINT -f values.yaml --wait
 NAME: mint 
 LAST DEPLOYED: Wed Mar 18 10:27:06 2020
 NAMESPACE: default
