@@ -7,13 +7,8 @@ MINT can be easily deployed on large Kubernetes clusters using Helm. Useful for 
 
 - A Kubernetes `v1.16.3` cluster is required as well as Helm `v3.2.x`.
 
-- A shared file system to host all analyses workspaces when running in a multinode deployment setup. Therefore, you should create an [`StorageClass`](https://kubernetes.io/docs/concepts/storage/storage-classes/#the-storageclass-resource) pointing to your storage backend. The `StorageClass` should meet the following requirements:
-    - be named `<helm-release-prefix>-shared-volume-storage-class`;
-    - be created in the same namespace as the one you will deploy MINT to.
-
-!!! note
-    If you do not have any particular distributed file system in your Kubernetes cluster, you can easily [deploy an NFS network file system following our documentation](../../../advanced-usage/storage-backends/nfs/).
-
+- A Google Maps API Key. [How to obtain it?](https://developers.google.com/maps/documentation/javascript/get-api-key)
+- 
 ## Deploy
 
 **1.** Add MINT chart repository:
@@ -35,6 +30,9 @@ For example, to change the Welcome Message:
 
 ```yaml
 welcome_message: Welcome to MINT
+google:
+  maps:
+    key: CHANGEME
 ```
 
 
