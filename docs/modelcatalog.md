@@ -92,7 +92,7 @@ We have prepared a set of materials to help illustrating how the model catalog A
 ![Model catalog overview](figures/example.gif "Model catalog overview")
 
 ## Status 
-The current model catalog API ([v1.4.0](https://github.com/mintproject/model-catalog-api/releases/tag/1.4.0), released on March 10th, 2020) supports:
+The current model catalog API ([v1.8.0](https://github.com/mintproject/model-catalog-fastapi/), released on Oct 21th, 2022) supports:
 
  * Retrieving information from models [[GUI](https://models.mint.isi.edu/home), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/), [API client](https://model-catalog-python-api-client.readthedocs.io/)]
  * Edit information from model setups [[GUI](https://mint.isi.edu/ethiopia/models/configure), [API](https://model-catalog-python-api-client.readthedocs.io/en/latest/endpoints/)] (**needs authentication**)
