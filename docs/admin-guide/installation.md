@@ -5,7 +5,8 @@ MINT can be easily deployed on large Kubernetes clusters using Helm. Useful for 
 
 ## Pre-requisites
 
-- A Kubernetes `v1.16.3` cluster is required as well as Helm `v3.2.x`.
+- A Kubernetes `v1.16.3` cluster or later.
+- Helm `v3.2.x` or later.
 - A Google Maps API Key. [How to obtain it?](https://developers.google.com/maps/documentation/javascript/get-api-key) 
 
 ## Deploy
@@ -48,7 +49,7 @@ STATUS: deployed
 REVISION: 1
 TEST SUITE: None
 NOTES:
-Thanks for flying MINT 🚀
+
 ```
 
 !!! warning
